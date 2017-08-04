@@ -1,1 +1,26 @@
-<h1>Hello World!</h1>
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Test the Mailer!</title>
+    <meta name="description" content="Webpage for testing the mailer service from plentymarkets plugins">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js" type="text/javascript"></script>
+    <![endif]-->
+</head>
+<body>
+<h1>Mail something! <small>You can use HTML :)</small></h1>
+<form action="/mail" id="mailer" method="post">
+    <label for="recipient">Empfänger</label>
+    <input name="recipient" id="recipient" maxlength="300">
+
+    <label for="subject">Betreff</label>
+    <input name="subject" id="subject" maxlength="100">
+
+    <label for="body">Text</label>
+    <textarea name="body" id="body"></textarea>
+
+    <button>Eingaben absenden</button>
+</form>
+</body>
+</html>

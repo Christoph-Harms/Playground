@@ -16,6 +16,8 @@ class PlaygroundRouteServiceProvider extends RouteServiceProvider
 	public function map(Router $router)
 	{
 		$router->get('hello', 'Playground\Controllers\ContentController@sayHello');
+
+		$router->post('mail', 'Playground\Controllers\MailController@send');
 	}
 
 }
