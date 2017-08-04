@@ -1,0 +1,8 @@
+{
+      "name":"Playground",
+      "description":"to test things",
+      "namespace":"Playground",
+      "author":"Christoph Harms",
+      "type":"template",
+      "serviceProvider":"Playground\\Providers\\PlaygroundServiceProvider"
+}
